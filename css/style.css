@@ -1,0 +1,27 @@
+/*code provided by W3 School https://www.w3schools.com/css/css_grid.asp*/
+.grid-container {
+  display: grid;
+  grid-column-gap: 50px;
+  grid-template-columns: auto auto auto;
+  background: linear-gradient(#FFFFFF, #D9D9D9);
+  padding: 10px;
+}
+.grid-item {
+  padding: 20px;
+  font-size: 20px;
+  color: black;
+  text-align: center;
+}
+.grid-item-span{
+  grid-column-end: span 3;/* from Justin McDowell's comment on https://css-tricks.com/almanac/properties/g/grid-row-column-span/*/
+  padding: 20px;
+  font-size: 20px;
+  color: black;
+  text-align: center;
+}
+.retweet_desciption{
+  padding: 20px;
+  font-size: 20px;
+  color: black;
+  text-align: center;
+}
